@@ -13,7 +13,7 @@
 
 	<groupId>com.grv.petclinic</groupId>
 	<artifactId>spring-boot-pet-clinic</artifactId>
-	<version>1.0</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-pet-clinic</name>
 	<description>Pet Clinic Project</description>
 	<properties>
@@ -42,9 +42,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	
-	<!-- <scm>
-		<developerConnection>scm:git:https://github.com/GAurav7829/SpringBoot-petClinic.git</developerConnection>
-	</scm> -->
-	
 </project>
