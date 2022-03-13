@@ -3,9 +3,9 @@ package com.grv.petclinic.services.map;
 import java.util.Set;
 
 import com.grv.petclinic.model.Pet;
-import com.grv.petclinic.services.CrudService;
+import com.grv.petclinic.services.PetService;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
 	@Override
 	public Pet save(Pet object) {
